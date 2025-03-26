@@ -24,7 +24,7 @@ listContainer.addEventListener("click", (e)=> {
         saveData(); 
     }
 }, false);
-
+// adding the feature of clicking enter
 function saveData() {
     localStorage.setItem("data", listContainer.innerHTML);
 }
