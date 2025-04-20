@@ -24,7 +24,12 @@ listContainer.addEventListener("click", (e)=> {
         saveData(); 
     }
 }, false);
-// adding the feature of clicking enter
+inputBox.addEventListener('keydown', (e)=> {
+    if (e.key === "Enter") {
+        addTask();
+        saveData();
+    }
+}, false);
 function saveData() {
     localStorage.setItem("data", listContainer.innerHTML);
 }
