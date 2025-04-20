@@ -1,7 +1,6 @@
-# This repo is mainly used as a testing environment for version control systems
+# This repo is mainly used as a testing environment for educational purposes
+## you can find the following projects inside each branch in this repo
 
-
-## commiting changes on the following simple application for educational porpuses
 #### To-Do-List
 #### Wheather App
 #### Asteroids Game
